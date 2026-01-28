@@ -1,14 +1,27 @@
 using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class dragging : MonoBehaviour
 {
     [SerializeField] private bool isDragging = false;
-    void Update()
+    private Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    public bool GetIsDragging()
+    {
+        return isDragging;
+    }
+    
+    void FixedUpdate()
     {
         if (isDragging)
         {
-            transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            rb.MovePosition((Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition));
         }
     }
 
