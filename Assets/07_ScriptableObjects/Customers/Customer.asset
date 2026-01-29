@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae78592cbff687c4697258096d361e10, type: 3}
+  m_Name: Customer
+  m_EditorClassIdentifier: Assembly-CSharp::John.Customer
+  <Name>k__BackingField: 
+  <Difficulty>k__BackingField: 0
+  <Stats>k__BackingField:
+    <Age>k__BackingField: 0
+    <Glamour>k__BackingField: 0
+    <Cool>k__BackingField: 0
+    <Rugged>k__BackingField: 0
+    <Groomed>k__BackingField: 0
+  <Range>k__BackingField:
+    <Age>k__BackingField:
+      <Min>k__BackingField: 0
+      <Max>k__BackingField: 100
+    <Glamour>k__BackingField:
+      <Min>k__BackingField: 0
+      <Max>k__BackingField: 100
+    <Cool>k__BackingField:
+      <Min>k__BackingField: 0
+      <Max>k__BackingField: 100
+    <Rugged>k__BackingField:
+      <Min>k__BackingField: 0
+      <Max>k__BackingField: 100
+    <Groomed>k__BackingField:
+      <Min>k__BackingField: 0
+      <Max>k__BackingField: 100
