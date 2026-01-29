@@ -280,7 +280,6 @@ GameObject:
   - component: {fileID: 435952671}
   - component: {fileID: 435952670}
   - component: {fileID: 435952669}
-  - component: {fileID: 435952672}
   - component: {fileID: 435952674}
   - component: {fileID: 435952673}
   m_Layer: 0
@@ -376,19 +375,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &435952672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435952668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4211895428a86178ea99637cc731133e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::objectType
-  costumneObjectType: 1
 --- !u!50 &435952673
 Rigidbody2D:
   serializedVersion: 5
@@ -483,6 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56eb4c0b497f080c58642ced16fc9dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::lockingPoint
+  whatCanLock: 0
 --- !u!61 &847834846
 BoxCollider2D:
   m_ObjectHideFlags: 0

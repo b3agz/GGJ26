@@ -1,4 +1,5 @@
 using System;
+using John;
 using UnityEngine;
 using Object = System.Object;
 
@@ -8,20 +9,21 @@ public class lockingPoint : MonoBehaviour
     private GameObject whatToLock;
 
     private bool canLock = false;
-    
+
+    public string slotName;
     
     //this need to be changed to however we are going to manage the pices 
-    private int whatCanLock = 0;
-    
+
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("costumeObject") && whatToLock == null && 
-            other.gameObject.GetComponent<objectType>().costumneObjectType == whatCanLock)
+        if (other.CompareTag("costumeObject") && whatToLock == null && other.gameObject.GetComponent<itemHolder>().whatItemIs.Slot == slotName)
         {
             whatToLock = other.gameObject;
             canLock = true;
-        }        
+            Judger.Instance.AddItem(other.gameObject.GetComponent<itemHolder>().whatItemIs);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -30,6 +32,7 @@ public class lockingPoint : MonoBehaviour
         {
             whatToLock = null;
             canLock = false;
+            Judger.Instance.RemoveItem(other.gameObject.GetComponent<itemHolder>().whatItemIs);
         }
     }
 

@@ -29,6 +29,14 @@ namespace John {
         /// </summary>
         [Tooltip("The stats that this image applies to the disguise.")]
         [field: SerializeField] public StatBlock Stats { get; private set; }
+        
+        
+        /// <summary>
+        /// this is to designate which lock point then item can be placed (e.g hair noise, mouth, etc)
+        /// NOTE: idk a better way to lock slots so its a string can't wait for this to cause pain down the line
+        /// </summary>
+        [Tooltip("this is where its going to be on the mask e.g eyebrows, noise, etc")]
+        [field: SerializeField] public string Slot { get; set; }
 
     }
 

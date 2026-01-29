@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3217dfccd8f6bc74ba0c89121fad7d8d, type: 3}
   m_Name: Item
   m_EditorClassIdentifier: Assembly-CSharp::John.Item
-  <Name>k__BackingField: 
+  <Name>k__BackingField: test
   <Image>k__BackingField: {fileID: 0}
   <Stats>k__BackingField:
     <Age>k__BackingField: -16
@@ -20,3 +20,4 @@ MonoBehaviour:
     <Cool>k__BackingField: -2
     <Rugged>k__BackingField: -9
     <Groomed>k__BackingField: -4
+  <Slot>k__BackingField: hbfkedsfhk
