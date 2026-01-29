@@ -15,8 +15,8 @@ MonoBehaviour:
   <Name>k__BackingField: 
   <Image>k__BackingField: {fileID: 0}
   <Stats>k__BackingField:
-    <Age>k__BackingField: 0
-    <Glamour>k__BackingField: 0
-    <Cool>k__BackingField: 0
-    <Rugged>k__BackingField: 0
-    <Groomed>k__BackingField: 0
+    <Age>k__BackingField: -16
+    <Glamour>k__BackingField: 1
+    <Cool>k__BackingField: -2
+    <Rugged>k__BackingField: -9
+    <Groomed>k__BackingField: -4
