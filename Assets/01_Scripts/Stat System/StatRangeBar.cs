@@ -32,6 +32,8 @@ namespace John {
         /// <param name="value">The current value.</param>
         public void UpdateVisual(StatRange range, int value) {
 
+            if (_parentRect == null) return;
+
             // Get the width of the parent Rect every call so the bar is always right,
             // even if the width of the parent changes.
             float parentWidth = _parentRect.rect.width;
