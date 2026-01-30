@@ -34,10 +34,16 @@ namespace John {
         /// </summary>
         public IReadOnlyList<Item> Items => _items;
 
-        // The current
+        [SerializeField] StatWindow _statWindow;
+
+        // The current stats factoring in all applied disguses.
         [SerializeField] private StatBlock _currentStats;
 
-
+        void Update() {
+            // Temporary key to update the stats manually.
+            // ! Needs removing before final build.
+            if (Input.GetKeyDown(KeyCode.G)) Judge();
+        }
 
         /// <summary>
         /// Starts a new round with the given customer.
@@ -114,11 +120,9 @@ namespace John {
 
             Success = Customer.Range.IsStatBlockValid(_currentStats);
 
+            _statWindow.UpdateBars(Customer, _currentStats);
 
-        }
 
-        void OnValidate() {
-            Judge();
         }
 
     }
