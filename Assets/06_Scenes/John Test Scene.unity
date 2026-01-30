@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d89e3e2b2d74d4893b4418f88b0869, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatRangeBar
 --- !u!1001 &350919771
 PrefabInstance:
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d89e3e2b2d74d4893b4418f88b0869, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatRangeBar
 --- !u!1 &460350108
 GameObject:
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
   m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
@@ -571,8 +571,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -698,8 +698,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_ComponentVersion: 2
   m_LightType: 4
   m_BlendStyleIndex: 0
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56eb4c0b497f080c58642ced16fc9dfc, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::lockingPoint
   slotName: hair
 --- !u!212 &702217646
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d89e3e2b2d74d4893b4418f88b0869, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatRangeBar
 --- !u!1 &1205460111
 GameObject:
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
   m_Padding:
     m_Left: 0
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23fb5fa5aa6c63848857c613e32de446, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.Judger
   <Success>k__BackingField: 0
   <Customer>k__BackingField: {fileID: 11400000, guid: 7d41c7f35e4a6c14ea505baa0ca7a22c, type: 2}
@@ -1155,7 +1155,6 @@ GameObject:
   - component: {fileID: 1315353521}
   - component: {fileID: 1315353525}
   - component: {fileID: 1315353524}
-  - component: {fileID: 1315353523}
   - component: {fileID: 1315353526}
   m_Layer: 0
   m_Name: item
@@ -1230,85 +1229,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315353520}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3909117665845195364, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_Name
-      value: item
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8902180829512126286, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6420bf85a2a8b72b8acd062f44cf0ffa, type: 3}
---- !u!1001 &7285659397177589999
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315353520}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 1000000
-  m_AngularDamping: 1000000
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1315353524
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1355,7 +1282,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2ebac9f9a68dfd6c834f678c1045c1e, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::dragging
   isDragging: 0
 --- !u!114 &1315353526
@@ -1368,7 +1295,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45732e1207cd7276c82296fc3cc956ca, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::itemHolder
   whatItemIs: {fileID: 11400000, guid: 19eebc751b4d1b94fb950b0d4d4baae2, type: 2}
 --- !u!1001 &1684678666
@@ -1486,7 +1413,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d89e3e2b2d74d4893b4418f88b0869, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatRangeBar
 --- !u!224 &1841462931 stripped
 RectTransform:
@@ -1502,7 +1429,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4d89e3e2b2d74d4893b4418f88b0869, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatRangeBar
 --- !u!1 &1925617158
 GameObject:
@@ -1538,11 +1465,11 @@ RectTransform:
   - {fileID: 1205460112}
   m_Father: {fileID: 140922407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 340, y: 308.1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1925617160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,7 +1480,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
@@ -1591,7 +1518,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f544ca5505d0f648a58109915a54fe3, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::John.StatWindow
   _ageBar: {fileID: 1841462933}
   _glamourBar: {fileID: 146681290}
