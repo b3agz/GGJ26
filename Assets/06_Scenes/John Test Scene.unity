@@ -789,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: slotName
-      value: wrinkles
+      value: forhead
       objectReference: {fileID: 0}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
