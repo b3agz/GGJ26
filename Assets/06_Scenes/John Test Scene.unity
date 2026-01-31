@@ -299,6 +299,14 @@ PrefabInstance:
       propertyPath: slotName
       value: cheecks
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 212628249}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 212628250}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0.6072798
@@ -327,6 +335,16 @@ PrefabInstance:
 --- !u!4 &212628248 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 212628247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &212628249 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 212628247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &212628250 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 212628247}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &236661468
@@ -393,6 +411,14 @@ PrefabInstance:
       propertyPath: slotName
       value: moustache
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 236661470}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 236661471}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -421,6 +447,16 @@ PrefabInstance:
 --- !u!4 &236661469 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 236661468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &236661470 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 236661468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &236661471 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 236661468}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &460350108
@@ -791,6 +827,14 @@ PrefabInstance:
       propertyPath: slotName
       value: forhead
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 775837816}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 775837817}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0.04843235
@@ -819,6 +863,16 @@ PrefabInstance:
 --- !u!4 &775837815 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 775837814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &775837816 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 775837814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &775837817 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 775837814}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &884499056
@@ -1048,6 +1102,14 @@ PrefabInstance:
       propertyPath: slotName
       value: ears
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 898238496}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 898238497}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -1076,6 +1138,16 @@ PrefabInstance:
 --- !u!4 &898238495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 898238494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &898238496 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 898238494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &898238497 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 898238494}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1259437911
@@ -1247,6 +1319,14 @@ PrefabInstance:
       propertyPath: slotName
       value: cheeks
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 1538712982}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1538712983}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0.6072798
@@ -1275,6 +1355,16 @@ PrefabInstance:
 --- !u!4 &1538712981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1538712980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1538712982 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1538712980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1538712983 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 1538712980}
   m_PrefabAsset: {fileID: 0}
 --- !u!61 &1730129491 stripped
@@ -1351,6 +1441,14 @@ PrefabInstance:
       propertyPath: slotName
       value: ears
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 1826825169}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1826825170}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -1379,6 +1477,16 @@ PrefabInstance:
 --- !u!4 &1826825168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1826825167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1826825169 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1826825167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1826825170 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 1826825167}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1879646922
@@ -1445,6 +1553,14 @@ PrefabInstance:
       propertyPath: slotName
       value: beard
       objectReference: {fileID: 0}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: boxCollider2D
+      value: 
+      objectReference: {fileID: 1879646924}
+    - target: {fileID: 8050710507893058093, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1879646925}
     - target: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -1473,6 +1589,16 @@ PrefabInstance:
 --- !u!4 &1879646923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1636186815886986172, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1879646922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1879646924 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1878876180419545452, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
+  m_PrefabInstance: {fileID: 1879646922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1879646925 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8273263895326836607, guid: 94e9c517a84f5969cb23c71a7f029218, type: 3}
   m_PrefabInstance: {fileID: 1879646922}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &1925617159 stripped
