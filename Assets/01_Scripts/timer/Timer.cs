@@ -55,8 +55,17 @@ public class Timer : MonoBehaviour
         {
             float minutes = Mathf.FloorToInt(time / 60);
             float seconds = Mathf.FloorToInt(time % 60);
+            string secondsString;
+            if (seconds < 10)
+            {
+                secondsString = "0" + seconds.ToString();
+            }
+            else
+            {
+                secondsString = seconds.ToString();
+            }
             
-            string currentTimer = string.Format("{0:D2}:{1:D2}", minutes.ToString(), seconds.ToString());
+            string currentTimer = string.Format("{0:D2}:{1:D2}", minutes.ToString(), secondsString);
             timerText.text = currentTimer;
 
         }
