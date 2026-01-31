@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2077721898447209373}
   - component: {fileID: 6109812838922305598}
   - component: {fileID: 6059765163336244922}
+  - component: {fileID: 1263190262794363380}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -137,6 +138,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1263190262794363380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3022456589091583759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f3d91a8d0864445bf9bbaa2a00f531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timer
+  TimerDuration: 60
+  timerText: {fileID: 6059765163336244922}
 --- !u!1 &3778186492095337840
 GameObject:
   m_ObjectHideFlags: 0
