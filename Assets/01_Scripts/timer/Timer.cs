@@ -10,7 +10,6 @@ public class Timer : MonoBehaviour
     /// way of doing a timer in unity and c# if not i'm sorry -- willow
     /// </summary>
     
-    
         [Tooltip("put how long in seconds")]
         public float TimerDuration;
     
@@ -18,8 +17,18 @@ public class Timer : MonoBehaviour
         
         private float timer;
 
+        private static Timer Instance { get; set; }
 
-
+        private void Awake()
+        {
+            if (Instance != null && Instance != this) {
+                Destroy(gameObject);
+                return;
+            }
+            Instance = this;
+        }
+        
+        
         void Start()
         {
             timer = TimerDuration;
