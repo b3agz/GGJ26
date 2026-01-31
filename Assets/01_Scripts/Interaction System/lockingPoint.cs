@@ -12,12 +12,31 @@ public class lockingPoint : MonoBehaviour
 
     public string slotName;
     
+    /// <summary>
+    /// this is just to make moveing and managing them earies by making the sprits invisable
+    /// the sprites are a visual indicator of the hit box is
+    /// </summary>
+
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private BoxCollider2D boxCollider2D;
+    
+    private void Start()
+    { 
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        
+        boxCollider2D.size = new Vector2(spriteRenderer.bounds.size.x, spriteRenderer.bounds.size.y);
+        spriteRenderer.enabled = false;
+        
+    }
+    
     //this need to be changed to however we are going to manage the pices 
-
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other == null)
+            return;
+        
         if (other.CompareTag("costumeObject") && whatToLock == null && other.gameObject.GetComponent<itemHolder>().whatItemIs.Slot == slotName)
         {
             whatToLock = other.gameObject;
@@ -28,6 +47,10 @@ public class lockingPoint : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (other == null)
+            return;
+        
+        
         if (other.CompareTag("costumeObject"))
         {
             whatToLock = null;
