@@ -17,8 +17,8 @@ public class lockingPoint : MonoBehaviour
     /// the sprites are a visual indicator of the hit box is
     /// </summary>
 
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private BoxCollider2D boxCollider2D;
+    private SpriteRenderer spriteRenderer;
+    private BoxCollider2D boxCollider2D;
     
     private void Start()
     { 
