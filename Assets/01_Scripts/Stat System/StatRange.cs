@@ -19,6 +19,8 @@ namespace John {
         /// </summary>
         public const int RANGE_MAX = 10;
 
+        public const int RANGE_OFFSET = RANGE_MAX / 5;
+
         /// <summary>
         /// The minimum value in this range (inclusive).
         /// </summary>

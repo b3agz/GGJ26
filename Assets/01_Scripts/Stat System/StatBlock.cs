@@ -18,35 +18,35 @@ namespace John {
         /// </summary>
         [Tooltip("How old the client looks (number does not represent actual years).")]
         [field: SerializeField, Range(-StatRange.RANGE_MAX, StatRange.RANGE_MAX)]
-        public int Age { get; private set; }
+        public int Age { get; set; }
 
         /// <summary>
         /// Adding things like makeup, earrings, etc, increases glamour.
         /// </summary>
         [Tooltip("Adding things like makeup, earrings, etc, increases glamour.")]
         [field: SerializeField, Range(-StatRange.RANGE_MAX, StatRange.RANGE_MAX)]
-        public int Glamour { get; private set; }
+        public int Glamour { get; set; }
 
         /// <summary>
         /// Cartoon cool; adding sunglasses, certain hairstyles, etc.
         /// </summary>
         [Tooltip("Cartoon cool; adding sunglasses, certain hairstyles, etc.")]
         [field: SerializeField, Range(-StatRange.RANGE_MAX, StatRange.RANGE_MAX)]
-        public int Cool { get; private set; }
+        public int Cool { get; set; }
 
         /// <summary>
         /// Things like facial hair, scars, an eyepatch, all add ruggedness.
         /// </summary>
         [Tooltip("Things like facial hair, scars, an eyepatch, all add ruggedness.")]
         [field: SerializeField, Range(-StatRange.RANGE_MAX, StatRange.RANGE_MAX)]
-        public int Rugged { get; private set; }
+        public int Rugged { get; set; }
 
         /// <summary>
         /// Things like unkempt hair or beards, muck, etc.
         /// </summary>
         [Tooltip("Things like unkempt hair or beards, muck, etc.")]
         [field: SerializeField, Range(-StatRange.RANGE_MAX, StatRange.RANGE_MAX)]
-        public int Groomed { get; private set; }
+        public int Groomed { get; set; }
 
         /// <summary>
         /// A default constructor is needed for Unity serialisation to work.

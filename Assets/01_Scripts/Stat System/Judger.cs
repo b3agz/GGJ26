@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 
 namespace John {
 
@@ -28,6 +29,8 @@ namespace John {
         // The list of disguise items currently applied to the customer.
         [SerializeField] private List<Item> _items = new();
 
+        [SerializeField] private TextMeshProUGUI _description;
+
         /// <summary>
         /// A readonly list of disguise items to allow external access while
         /// preventing anything from modifying it externally.
@@ -39,21 +42,17 @@ namespace John {
         // The current stats factoring in all applied disguses.
         [SerializeField] private StatBlock _currentStats;
 
-        void Update() {
-            // Temporary key to update the stats manually.
-            // ! Needs removing before final build.
-            if (Input.GetKeyDown(KeyCode.G)) Judge();
-        }
-
         /// <summary>
         /// Starts a new round with the given customer.
         /// </summary>
-        public void NewCustomer(Customer customer) {
+        public void NewCustomer() {
 
             ClearItems();
             // TODO: Any house keeping or animation stuff for changing the customer.
-            Customer = customer;
+            Customer = Customer.CreateRandom();
             Success = false;
+            _description.text = Customer.Description;
+            Judge();
 
         }
 

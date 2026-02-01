@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Glam Ear Ring
   m_EditorClassIdentifier: Assembly-CSharp::John.Item
   <Name>k__BackingField: Glam Ear Ring
-  <Image>k__BackingField: {fileID: 21300000, guid: 34dd0a6c29d77cf48a08225f8aa372a6, type: 3}
+  <Image>k__BackingField: {fileID: 21300000, guid: 112177ff147d4714bbfe2c559180eaec, type: 3}
   <LocalPosition>k__BackingField: {x: -1.4, y: 1.9, z: 0}
   <LocalScale>k__BackingField: {x: 0.2, y: 0.2, z: 1}
   <Stats>k__BackingField:
