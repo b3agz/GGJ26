@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    
+
     /// <summary>
     /// sorry for poor doc i'm just tring to gewt this done as fast as posible i hope this is the standerd
     /// way of doing a timer in unity and c# if not i'm sorry -- willow
     /// </summary>
-    
+
         [Tooltip("put how long in seconds")]
         public float TimerDuration;
-    
+
        [SerializeField] private TextMeshProUGUI timerText;
-        
+
         private float timer;
 
         private static Timer Instance { get; set; }
@@ -27,8 +27,8 @@ public class Timer : MonoBehaviour
             }
             Instance = this;
         }
-        
-        
+
+
         void Start()
         {
             timer = TimerDuration;
@@ -36,6 +36,10 @@ public class Timer : MonoBehaviour
 
         void Update()
         {
+
+        // Quick additon to pause timer if player is in a menu.
+        if (John.GameManager.Instance.State != John.GameState.InPlay) return;
+
             if (timer > 0)
             {
                 timer -= Time.deltaTime;
@@ -64,7 +68,7 @@ public class Timer : MonoBehaviour
             {
                 secondsString = seconds.ToString();
             }
-            
+
             string currentTimer = string.Format("{0:D2}:{1:D2}", minutes.ToString(), secondsString);
             timerText.text = currentTimer;
 
@@ -76,10 +80,10 @@ public class Timer : MonoBehaviour
             {
                 timer = 0;
                 UpdateTimerDisplay(timer);
-                
+
             }
         }
-        
-        
-        
+
+
+
 }
