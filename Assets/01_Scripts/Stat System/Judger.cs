@@ -24,7 +24,7 @@ namespace John {
         /// <summary>
         /// The customer currently getting a disguise.
         /// </summary>
-        [field: SerializeField] public Customer Customer { get; private set; }
+        public Customer Customer { get; private set; }
 
         // The list of disguise items currently applied to the customer.
         [SerializeField] private List<Item> _items = new();
@@ -44,13 +44,15 @@ namespace John {
         // The current stats factoring in all applied disguses.
         [SerializeField] private StatBlock _currentStats;
 
+        [SerializeField] private Transform _face;
+
         /// <summary>
         /// Starts a new round with the given customer.
         /// </summary>
         public void NewCustomer() {
 
             ClearItems();
-            // TODO: Any house keeping or animation stuff for changing the customer.
+            foreach (Transform child in _face) child.gameObject.SetActive(false);
             Customer = Customer.CreateRandom();
             Success = false;
             _description.text = Customer.Description;
