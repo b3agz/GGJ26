@@ -18,8 +18,8 @@ MonoBehaviour:
   <LocalScale>k__BackingField: {x: 0.2, y: 0.2, z: 1}
   <Stats>k__BackingField:
     <Age>k__BackingField: 0
-    <Glamour>k__BackingField: -1
-    <Cool>k__BackingField: 3
+    <Glamour>k__BackingField: 3
+    <Cool>k__BackingField: -1
     <Rugged>k__BackingField: 0
     <Groomed>k__BackingField: 0
   <Slot>k__BackingField: 

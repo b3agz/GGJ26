@@ -14,10 +14,11 @@ public class Timer : MonoBehaviour
         public float TimerDuration;
 
        [SerializeField] private TextMeshProUGUI timerText;
+       [SerializeField] private GameObject _doneScreen;
 
         private float timer;
 
-        private static Timer Instance { get; set; }
+        public static Timer Instance { get; set; }
 
         private void Awake()
         {
@@ -34,6 +35,11 @@ public class Timer : MonoBehaviour
             timer = TimerDuration;
         }
 
+        public void ResetTimer(float duration) {
+            TimerDuration = duration;
+            timer = TimerDuration;
+        }
+
         void Update()
         {
 
@@ -45,8 +51,11 @@ public class Timer : MonoBehaviour
                 timer -= Time.deltaTime;
                 UpdateTimerDisplay(timer);
             }
-            else
+            else {
+                John.GameManager.Instance.State = John.GameState.MainMenu;
+                _doneScreen.SetActive(true);
                 Flash();
+            }
         }
 
         private void ResetTimer()
@@ -80,7 +89,6 @@ public class Timer : MonoBehaviour
             {
                 timer = 0;
                 UpdateTimerDisplay(timer);
-
             }
         }
 

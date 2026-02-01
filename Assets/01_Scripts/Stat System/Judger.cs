@@ -39,6 +39,8 @@ namespace John {
 
         [SerializeField] StatWindow _statWindow;
 
+        [SerializeField] GameObject _newCustomerWindow;
+
         // The current stats factoring in all applied disguses.
         [SerializeField] private StatBlock _currentStats;
 
@@ -53,6 +55,9 @@ namespace John {
             Success = false;
             _description.text = Customer.Description;
             Judge();
+            Timer.Instance.ResetTimer(15);
+            _newCustomerWindow.SetActive(false);
+            GameManager.Instance.State = GameState.InPlay;
 
         }
 

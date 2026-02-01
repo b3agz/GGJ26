@@ -27,20 +27,21 @@ namespace John {
         /// <summary>
         /// The current state of the game (Paused, playing, etc).
         /// </summary>
-        public GameState State { get => _state; }
+        public GameState State {
+            get => _state;
+            set {
+                _state = value;
+            }
+        }
 
         [SerializeField] private GameObject _pauseScreen;
-
-        void Start() {
-            _state = GameState.InPlay;
-        }
 
         void Update() {
 
             if (Input.GetKeyDown(KeyCode.Escape)) {
                 switch (_state) {
                     case GameState.MainMenu:
-                        ExitGame();
+                        //ExitGame();
                         break;
                     case GameState.PauseMenu:
                         ResumeGame();
