@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3217dfccd8f6bc74ba0c89121fad7d8d, type: 3}
+  m_Name: Rugged Old Hair
+  m_EditorClassIdentifier: Assembly-CSharp::John.Item
+  <Name>k__BackingField: Rugged Old Hair
+  <Image>k__BackingField: {fileID: 21300000, guid: eabf83d31a8cf244880cb4246b7052f4, type: 3}
+  <LocalPosition>k__BackingField: {x: -0.04, y: 2.87, z: 0}
+  <LocalScale>k__BackingField: {x: 0.6, y: 0.6, z: 1}
+  <Stats>k__BackingField:
+    <Age>k__BackingField: 2
+    <Glamour>k__BackingField: -1
+    <Cool>k__BackingField: 0
+    <Rugged>k__BackingField: 3
+    <Groomed>k__BackingField: -1
+  <Slot>k__BackingField: 

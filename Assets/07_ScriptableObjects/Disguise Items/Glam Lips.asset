@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3217dfccd8f6bc74ba0c89121fad7d8d, type: 3}
+  m_Name: Glam Lips
+  m_EditorClassIdentifier: Assembly-CSharp::John.Item
+  <Name>k__BackingField: Glam Lips
+  <Image>k__BackingField: {fileID: 21300000, guid: a37d4b1ce55579a44af04b4e449a6af5, type: 3}
+  <LocalPosition>k__BackingField: {x: -0.1, y: 0.65, z: 0}
+  <LocalScale>k__BackingField: {x: 0.25, y: 0.25, z: 1}
+  <Stats>k__BackingField:
+    <Age>k__BackingField: 0
+    <Glamour>k__BackingField: 3
+    <Cool>k__BackingField: 0
+    <Rugged>k__BackingField: -1
+    <Groomed>k__BackingField: 0
+  <Slot>k__BackingField: 

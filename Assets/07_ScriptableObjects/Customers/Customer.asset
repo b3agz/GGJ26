@@ -15,24 +15,24 @@ MonoBehaviour:
   <Name>k__BackingField: 
   <Difficulty>k__BackingField: 0
   <Stats>k__BackingField:
-    <Age>k__BackingField: 50
-    <Glamour>k__BackingField: 50
-    <Cool>k__BackingField: 50
-    <Rugged>k__BackingField: 50
-    <Groomed>k__BackingField: 50
+    <Age>k__BackingField: 0
+    <Glamour>k__BackingField: 1
+    <Cool>k__BackingField: 2
+    <Rugged>k__BackingField: 1
+    <Groomed>k__BackingField: 4
   <Range>k__BackingField:
     <Age>k__BackingField:
-      <Min>k__BackingField: 67
-      <Max>k__BackingField: 88
+      <Min>k__BackingField: 3
+      <Max>k__BackingField: 7
     <Glamour>k__BackingField:
-      <Min>k__BackingField: 19
-      <Max>k__BackingField: 77
+      <Min>k__BackingField: 2
+      <Max>k__BackingField: 6
     <Cool>k__BackingField:
-      <Min>k__BackingField: 34
-      <Max>k__BackingField: 77
+      <Min>k__BackingField: 4
+      <Max>k__BackingField: 7
     <Rugged>k__BackingField:
-      <Min>k__BackingField: 31
-      <Max>k__BackingField: 78
+      <Min>k__BackingField: 2
+      <Max>k__BackingField: 10
     <Groomed>k__BackingField:
-      <Min>k__BackingField: 33
-      <Max>k__BackingField: 67
+      <Min>k__BackingField: 4
+      <Max>k__BackingField: 7

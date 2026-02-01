@@ -17,7 +17,7 @@ namespace John {
         /// <summary>
         /// The maximum value in the range (the range is arbitrary, it just needs to be consistent).
         /// </summary>
-        public const int RANGE_MAX = 100;
+        public const int RANGE_MAX = 10;
 
         /// <summary>
         /// The minimum value in this range (inclusive).
