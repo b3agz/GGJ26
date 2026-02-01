@@ -22,6 +22,18 @@ namespace John {
         [field: SerializeField] public Sprite Image { get; private set; }
 
         /// <summary>
+        /// The position of this item relative to the Face image.
+        /// </summary>
+        [Tooltip("The position of this item relative to the Face image.")]
+        [field: SerializeField] public Vector3 LocalPosition { get; private set; }
+
+        /// <summary>
+        /// The scale of this item when placed on the Face image.
+        /// </summary>
+        [Tooltip("The scale of this item when placed on the Face image.")]
+        [field: SerializeField] public Vector3 LocalScale { get; private set; }
+
+        /// <summary>
         /// The stats that this image applies to the disguise.
         /// NOTE: We do not validate these Stats because they are additive and applied
         /// to the current stat score. So we allow them to go into the negative. For
@@ -29,8 +41,8 @@ namespace John {
         /// </summary>
         [Tooltip("The stats that this image applies to the disguise.")]
         [field: SerializeField] public StatBlock Stats { get; private set; }
-        
-        
+
+
         /// <summary>
         /// this is to designate which lock point then item can be placed (e.g hair noise, mouth, etc)
         /// NOTE: idk a better way to lock slots so its a string can't wait for this to cause pain down the line

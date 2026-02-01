@@ -15,6 +15,11 @@ namespace John {
             Instance = this;
         }
 
+        /// <summary>
+        /// Publicly accessible reference to The Face's transform for positional data.
+        /// </summary>
+        [field: SerializeField] public Transform TheFace { get; private set; }
+
         // Serialized private field so we can see/change it in the inspector while preventing
         // it from being changed outside of this script.
         [SerializeField] private GameState _state;
